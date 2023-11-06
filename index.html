@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Quiz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="css/wickedcss.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1>Bootstrap Quiz</h1>
+          <h2>Objectives</h2>
+          <ol>
+            <li>Center the Bootstrap Quiz Header</li>
+            <li>Change the background color to Slate Gray</li>
+            <li>
+              Create a new row and create 3 column 4s with a card in each column
+              and make the cards evenly spaced
+            </li>
+            <li>
+              Add a different image to each card and add lorem ipsum to each
+              card
+            </li>
+            <li>
+              Create a paragraph of lorem ipsum and change the font to a Google
+              Font of your liking
+            </li>
+            <li>Add a button and use WickedCss to make the button spin</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Code goes here -->
+      <div class="row cards">
+        <div class="col-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="/assets/beni-asakusa.jpeg" class="card-img-top" alt="Benimaru in Asakusa">
+            <div class="card-body">
+              <h5 class="card-title">Asakusa</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, temporibus ipsum? Ratione vitae, quod magni, iusto consequatur rerum ab maxime asperiores.</p>
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="/assets/beniinto4.jpeg" class="card-img-top" alt="Benimaru Bored">
+            <div class="card-body">
+              <h5 class="card-title">Benimaru</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, temporibus ipsum? Ratione vitae, quod magni, iusto consequatur rerum ab maxime asperiores.</p>
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="/assets/beniintro2.jpeg" class="card-img-top" alt="Benimaru with Fire">
+            <div class="card-body">
+              <h5 class="card-title">Pyrokinetic</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, temporibus ipsum? Ratione vitae, quod magni, iusto consequatur rerum ab maxime asperiores.</p>
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nisi vitae dolor nihil officiis veritatis, aliquid exercitationem id, rem eius eaque vel consequatur voluptates! Voluptatibus architecto eos ea autem rem.
+          Veniam, laboriosam nobis quam porro dolorem, culpa asperiores illum voluptate voluptas quibusdam vitae sequi aspernatur fugit amet saepe ullam. Odio velit facilis natus corrupti placeat, ad facere soluta earum repudiandae.
+          Quasi unde sint quaerat atque natus. Dolorem placeat quibusdam exercitationem nesciunt fugiat dicta adipisci quas iusto minima ratione est itaque numquam, repellat mollitia laborum, officiis non aperiam ex cumque esse.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col space spinner">
+          <button>Click Me!</button>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
